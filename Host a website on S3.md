@@ -25,20 +25,21 @@ In this step, I made an HTML file that will set up my website. I also selected a
 <img src="https://i.imgur.com/Nb4iMGi.png"  height="80%" width="80%" 
 <br />
 <br />
-I then went on to configure a static website domain. This too was done through the console <br/>
-
+I then went on to configure a static website domain. This too was done through the console. Website hosting means that AWS is providing the service and hosting my website in the cloud. To enable website hosting with my S3 bucket, I enabled static website hosting and Used to my index.html to create a webpage. <br/>
+<br />
+ <img src="https://i.imgur.com/26Fx7du.png"  height="80%" width="80%" 
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ Once the static website is enabled, S3 produces a bucket endpoint URL, which is a way for users to visit my S3 Bucket as a website. 
+<br />
+<img src="https://i.imgur.com/2JV5LF4.png"  height="80%" width="80%" 
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+When I first visited the bucket endpoint URL. I saw a 403 Forbidden error. The reason for this error was that the content in my S3 Bucket was still set to private.To resolve this 403 Forbidden error, I made the objects in my bucket public by setting new ACL permissions. once this was completed I could visit the website by using the link.<br/>
+<img src="https://i.imgur.com/IKE9hH2.png"  height="80%" width="80%" 
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ From here I deleted all the content from the bucket and Then deleted the Bucket.
 </p>
 
 <!--
