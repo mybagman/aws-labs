@@ -1,7 +1,7 @@
 <h1>Host a website on S3</h1>
 
 <h2>Description</h2>
-In this project, I will demonstrate How to create an S3 Bucket I'm doing this project to learn more about AWS 
+In this project, I went back through on my own free teir account and set up a  S3 Bucket. I'm doing this project to learn more about AWS and also how to document my projects on github. 
 <br />
 
 <h2>Environments Used </h2>
