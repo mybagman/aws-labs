@@ -6,25 +6,26 @@ In this project, I will demonstrate How to create an S3 Bucket I'm doing this pr
 
 <h2>Environments Used </h2>
 
-- <b>AWS</b> (21H2)
+- <b>AWS</b> 
 
 <h2>walk-through:</h2>
 
 <p align="center">
 In this step, I created an S3 Bucket and created space for files. I named the bucket and learnt that S3 bucket names are globally unique! This means once I create mine nobody else can have the same Bucket name.<br/>
-<img src="https://imgur.com/NU1t82i"/>
+<br />
+<img src="https://i.imgur.com/NU1t82i.png"  height="80%" width="80%" 
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Creating an S3 bucket took me a few minutes. The AWS console made it easy. I learnt about Access control list's (ACL). They are a set of rules that enable you to decide who has access to a resource. I chose to enable ACL's so that I could control who has access and what they can do with the resources.  <br/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+In this step, I made an HTML file that will set up my website. I also selected an image for my website and then uploaded both files into my S3 Bucket. This showed that the Bucket is working how it should.
+<br />
+<img src="https://i.imgur.com/Nb4iMGi.png"  height="80%" width="80%" 
 <br />
 <br />
 Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
