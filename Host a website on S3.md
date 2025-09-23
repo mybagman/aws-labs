@@ -21,10 +21,11 @@ Creating an S3 bucket took me a few minutes. The AWS console made it easy. I lea
 <br />
 In this step, I made an HTML file that will set up my website. I also selected an image for my website and then uploaded both files into my S3 Bucket. This showed that the Bucket is working how it should.
 <br />
+ <br />
 <img src="https://i.imgur.com/Nb4iMGi.png"  height="80%" width="80%" 
 <br />
 <br />
-Confirm your selection:  <br/>
+I then went on to configure a static website domain. This too was done through the console <br/>
 
 <br />
 <br />
