@@ -11,7 +11,7 @@ In this project, I went back through on my own free teir account and set up a  S
 <h2>walk-through:</h2>
 
 <p align="center">
-In this step, I created an S3 Bucket and created space for files. I named the bucket and learnt that S3 bucket names are globally unique! This means once I create mine nobody else can have the same Bucket name.<br/>
+Firstly I set the AWS region on my account to Sydney as it is the closest AZ to where I was located. Next, I created an S3 Bucket and created space for files. I named the bucket and learnt that S3 bucket names are globally unique! This means once I create mine nobody else can have the same Bucket name.<br/>
 <br />
 <img src="https://i.imgur.com/NU1t82i.png"  height="80%" width="80%" 
 <br />
@@ -19,7 +19,7 @@ In this step, I created an S3 Bucket and created space for files. I named the bu
 Creating an S3 bucket took me a few minutes. The AWS console made it easy. I learnt about Access control list's (ACL). They are a set of rules that enable you to decide who has access to a resource. I chose to enable ACL's so that I could control who has access and what they can do with the resources.  <br/>
 <br />
 <br />
-In this step, I made an HTML file that will set up my website. I also selected an image for my website and then uploaded both files into my S3 Bucket. This showed that the Bucket is working how it should.
+I made an HTML file that will set up my website, I did this by opening notepad and using html. I also selected an image for my website and then uploaded both files into my S3 Bucket. This showed that the Bucket is working how it should.
 <br />
  <br />
 <img src="https://i.imgur.com/Nb4iMGi.png"  height="80%" width="80%" 
